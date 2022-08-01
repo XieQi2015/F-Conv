@@ -24,7 +24,9 @@ Besides the output of F-Conv can be more stable than output of CNN, as  shown in
 
 Citation:
 
-    Qi Xie, Qian Zhao, Zongben Xu and Deyu Meng*. Fourier Series Expansion Based Filter Parametrization for Equivariant Convolutions[J]. IEEE transactions on pattern analysis and machine intelligence, 2022.
+    Qi Xie, Qian Zhao, Zongben Xu and Deyu Meng*. 
+    Fourier Series Expansion Based Filter Parametrization for Equivariant Convolutions[J]. 
+    IEEE transactions on pattern analysis and machine intelligence, 2022.
     
     BibTeX:
     

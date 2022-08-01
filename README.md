@@ -43,7 +43,7 @@ BibTeX:
     title={Fourier Series Expansion Based Filter Parametrization for Equivariant Convolutions},
     author={Xie, Qi and Zhao, Qian and Xu, Zongben and Meng, Deyu},
     journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
-    year={2020},
+    year={2022},
     publisher={IEEE}
     }
 

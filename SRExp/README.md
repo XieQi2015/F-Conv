@@ -1,12 +1,12 @@
 # Usage of The Codes
  
-Folder structure:
+**Folder structure:**
 
     Data\    : data folder, the Div2k data should be download here 
     src\     : Main codes
     Demo.txt : Comands for calling all the experiments
  
-Usage:
+**Usage:**
 
 The code is built on [EDSR (PyTorch)](https://github.com/sanghyun-son/EDSR-PyTorch) and has been tested on both Ubuntu and Windows.
 please refer [EDSR (PyTorch)](https://github.com/sanghyun-son/EDSR-PyTorch) for more usage details.
@@ -23,7 +23,7 @@ To train and test the proposed method, Cd to 'src', and following scripts are ex
 
 More examples can be found in Demo.txt.
  
- Citation:
+ **Citation:**
 
     Qi Xie, Qian Zhao, Zongben Xu and Deyu Meng*. 
     Fourier Series Expansion Based Filter Parametrization for Equivariant Convolutions[J]. 

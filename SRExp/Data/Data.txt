@@ -1,0 +1,5 @@
+EDSR data can be download from
+https://cv.snu.ac.kr/research/EDSR/DIV2K.tar
+
+benchmark datasets can be download from
+https://cv.snu.ac.kr/research/EDSR/benchmark.tar

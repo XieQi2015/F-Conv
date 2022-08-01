@@ -17,10 +17,12 @@ are zoomed in 5 times for easy observation.
 
 From the figure, we can also observe that the proposed F-Conv is expected to better maintain the symmetry of local features underlying the image, which should be help for the computer vision tasks.
 
-Besides the output of F-Conv can be more stable than output of CNN, as  shown in the following two figures:
+Besides the output of F-Conv can be more stable than output of CNN, as  shown in the following two figures.
 
+CNN results:
 <img src="https://github.com/XieQi2015/ImageFolder/blob/master/F-Conv/CNN_small2.gif" width="600">
 
+F-Conv results:
 <img src="https://github.com/XieQi2015/ImageFolder/blob/master/F-Conv/FCNN_small2.gif" width="600">
 
 

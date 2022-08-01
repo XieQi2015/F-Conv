@@ -3,7 +3,7 @@
 Folder structure:
 
     Data\    : data folder
-        |-- mnist_rotation_new.zip : minist data, Unzip before use. 
+        |-- mnist_rotation_new.zip : [roatated minist data](http://www.iro.umontreal.ca/~lisa/icml2007data/mnist_rotation_new.zip), Unzip before use. 
     Models\  : Trained result
         |-- NormalNet\      : Trained parameters
         |-- NormalNet_best_of_30_repetitions\     : Best model parameter of 30 random repetitions
@@ -17,6 +17,8 @@ Folder structure:
     Demo.bat                          : Demo for running all the experiments
  
 Usage:
+
+Unzip Data/mnist_rotation_new.zip to get the dataset first, which can also be download from http://www.iro.umontreal.ca/~lisa/icml2007data/mnist_rotation_new.zip.
 
 To run testing with the example data, you can just run Rotated_MNIST_Main.py which is equivariant under reflections call:
 
@@ -35,3 +37,19 @@ To test and train the simple cases, one call:
     python Rotated_MNIST_simpleCase_Main.py --dir SimpleNet 
     python Rotated_MNIST_simpleCase_Main.py --dir SimpleNet_Retrain --mode train
   
+ 
+ Citation:
+
+    Qi Xie, Qian Zhao, Zongben Xu and Deyu Meng*. 
+    Fourier Series Expansion Based Filter Parametrization for Equivariant Convolutions[J]. 
+    IEEE transactions on pattern analysis and machine intelligence, 2022.
+    
+    BibTeX:
+    
+    @article{xie2020MHFnet,
+    title={Fourier Series Expansion Based Filter Parametrization for Equivariant Convolutions},
+    author={Xie, Qi and Zhao, Qian and Xu, Zongben and Meng, Deyu},
+    journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+    year={2020},
+    publisher={IEEE}
+    }

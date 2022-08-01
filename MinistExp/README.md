@@ -20,18 +20,18 @@ Usage:
 
 To run testing with the example data, you can just run Rotated_MNIST_Main.py which is equivariant under reflections call:
 
-  python Rotated_MNIST_Main.py --dir NormalNet
+    python Rotated_MNIST_Main.py --dir NormalNet
 
 To test the best model trained by us, one can call:
 
-  python Rotated_MNIST_Main.py --dir NormalNet_best_of_30_repetitions
+    python Rotated_MNIST_Main.py --dir NormalNet_best_of_30_repetitions
   
 To train the  model, one can call:
 
-  python Rotated_MNIST_Main.py --dir retrain --mode train
+    python Rotated_MNIST_Main.py --dir retrain --mode train
  
 To test and train the simple cases, one call:
 
-  python Rotated_MNIST_simpleCase_Main.py --dir SimpleNet 
-  python Rotated_MNIST_simpleCase_Main.py --dir SimpleNet_Retrain --mode train
+    python Rotated_MNIST_simpleCase_Main.py --dir SimpleNet 
+    python Rotated_MNIST_simpleCase_Main.py --dir SimpleNet_Retrain --mode train
   

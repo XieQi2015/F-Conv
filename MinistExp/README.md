@@ -3,7 +3,7 @@
 Folder structure:
 
     Data\    : data folder
-        |-- mnist_rotation_new.zip : [roatated minist data](http://www.iro.umontreal.ca/~lisa/icml2007data/mnist_rotation_new.zip), Unzip before use. 
+        |-- mnist_rotation_new.zip : roatated minist data, Unzip before use. 
     Models\  : Trained result
         |-- NormalNet\      : Trained parameters
         |-- NormalNet_best_of_30_repetitions\     : Best model parameter of 30 random repetitions

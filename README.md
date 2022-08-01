@@ -4,7 +4,7 @@ Code of "Fourier Series Expansion Based Filter Parametrization for Equivariant C
 ![Illustration of F-Conv](https://raw.githubusercontent.com/XieQi2015/ImageFolder/master/F-Conv/Fig4.jpg)
 
     MinistExp\    : Code for the experiments on minist dataset
-    SRExp\    : Code for the experiments of image super resolution 
+    SRExp\        : Code for the experiments of image super resolution 
     
 F-Convs are rotation equivariant convolutions with high representation accuracy, which can perform better on low-level computer vision tasks as comparsion with pervious rotation equivariant convolution methods.
 
@@ -27,6 +27,9 @@ Besides the output of F-Conv can be more stable than output of CNN, as  shown in
 
 <img src="https://github.com/XieQi2015/ImageFolder/blob/master/F-Conv/FCNN_small2.gif" width="600">
 
+Usage:
+    
+    detail usage can be found in the subfolders
 
 Citation:
 

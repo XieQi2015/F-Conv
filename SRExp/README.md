@@ -9,7 +9,8 @@ Folder structure:
 Usage:
  
 To train and text the proposed method, followings are examples:
-
+    
+    cd XXXXXXXX/F-Conv/SRExp/src
     python main.py --model RDN_fcnn --scale 2 --save RDN_fcnn_x2  --res_scale 0.1 --ini_scale  0.1 --batch_size 16  --patch_size 64 --G0 8 --kernel_size 5 --epochs 150 --decay 3-100-130 --lr 4e-4
     python main.py --text_only --model RDN_fcnn --scale 2 --save RDN_fcnn_x2  --res_scale 0.1 --ini_scale  0.1 --batch_size 16  --patch_size 64 --G0 8 --kernel_size 5 --epochs 150 --decay 3-100-130 --lr 4e-4
 

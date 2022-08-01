@@ -18,7 +18,7 @@ Folder structure:
  
 Usage:
 
-Unzip Data/mnist_rotation_new.zip to get the dataset first, which can also be download from http://www.iro.umontreal.ca/~lisa/icml2007data/mnist_rotation_new.zip.
+Unzip Data/mnist_rotation_new.zip to get the rotated mnist dataset first, which can also be download from http://www.iro.umontreal.ca/~lisa/icml2007data/mnist_rotation_new.zip.
 
 To run testing with the example data, you can just run Rotated_MNIST_Main.py which is equivariant under reflections call:
 

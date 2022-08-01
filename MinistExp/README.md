@@ -1,6 +1,6 @@
 # Usage of The Codes
  
-Folder structure:
+**Folder structure:**
 
     Data\    : data folder
         |-- mnist_rotation_new.zip : roatated minist data, Unzip before use. 
@@ -16,7 +16,7 @@ Folder structure:
     SteerableCNN_XQ.py                : F-Conv based Networks 
     Demo.bat                          : Demo for running all the experiments
  
-Usage:
+**Usage:**
 
 Unzip Data/mnist_rotation_new.zip to get the rotated mnist dataset first, which can also be download from http://www.iro.umontreal.ca/~lisa/icml2007data/mnist_rotation_new.zip.
 
@@ -38,7 +38,7 @@ To test and train the simple cases, one call:
     python Rotated_MNIST_simpleCase_Main.py --dir SimpleNet_Retrain --mode train
   
  
- Citation:
+ **Citation:**
 
     Qi Xie, Qian Zhao, Zongben Xu and Deyu Meng*. 
     Fourier Series Expansion Based Filter Parametrization for Equivariant Convolutions[J]. 

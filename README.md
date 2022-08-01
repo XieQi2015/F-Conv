@@ -8,7 +8,7 @@ Code of "Fourier Series Expansion Based Filter Parametrization for Equivariant C
     
 F-Convs are rotation equivariant convolutions with high representation accuracy, which can perform better on low-level computer vision tasks as comparsion with pervious rotation equivariant convolution methods.
 
-Rotation symmetry on local features is a important structure characteristics of image, which can be hardly captured by commonly used CNN, as shown in the folliwing figure:
+Rotation symmetry on local features is an important structure characteristics of image, which can be hardly captured by commonly used CNN, as shown in the folliwing figure:
 
 <img src="https://raw.githubusercontent.com/XieQi2015/ImageFolder/master/F-Conv/EqExample_1_new2.jpg" width="600">
 (a) is a typical input cartoon image. (b) and (c) are utputs of randomly

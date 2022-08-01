@@ -29,7 +29,7 @@ Besides the output of F-Conv can be more stable than output of CNN, as  shown in
 
 Usage:
     
-    detail usage can be found in the subfolders
+    Detail usage can be found in the subfolders
 
 Citation:
 
@@ -37,7 +37,7 @@ Citation:
     Fourier Series Expansion Based Filter Parametrization for Equivariant Convolutions[J]. 
     IEEE transactions on pattern analysis and machine intelligence, 2022.
     
-    BibTeX:
+BibTeX:
     
     @article{xie2020MHFnet,
     title={Fourier Series Expansion Based Filter Parametrization for Equivariant Convolutions},

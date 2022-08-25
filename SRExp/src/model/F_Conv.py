@@ -30,7 +30,7 @@ class Fconv_PCA(nn.Module):
             self.expand = 1
         else:
             self.expand = tranNum
-        iniw = Getini_reg(Basis.size(3), inNum, outNum, self.expand, weight)*iniScale
+        iniw = Getini_reg(Basis.size(3), inNum, outNum, self.expand, weight)*iniScale# outNum,inNum,expand,nNum
         self.weights = nn.Parameter(iniw, requires_grad=True)
         if padding == None:
             self.padding = 0

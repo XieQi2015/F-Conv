@@ -20,7 +20,7 @@ From the figure, we can also observe that the proposed F-Conv is expected to bet
 Besides the output of F-Conv can be more stable than output of CNN when the input is rotated, as shown in the following two figures.
 
 **CNN results:**
-
+![Loading images](img src="https://github.com/XieQi2015/ImageFolder/blob/master/F-Conv/CNN_tiny2.gif")
 <img src="https://github.com/XieQi2015/ImageFolder/blob/master/F-Conv/CNN_tiny2.gif">
 
 **F-Conv results:**

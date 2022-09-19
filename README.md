@@ -10,7 +10,7 @@ F-Convs are rotation equivariant convolutions with high representation accuracy,
 
 Rotation symmetry on local features is an important structure characteristics of image, which can be hardly captured by commonly used CNN, as shown in the folliwing figure:
 
-<img src="https://raw.githubusercontent.com/XieQi2015/ImageFolder/master/F-Conv/EqExample_1_new2.jpg" width="600">
+<img src="https://raw.githubusercontent.com/XieQi2015/ImageFolder/master/F-Conv/EqExample_1_new2.jpg" width="620">
 (a) is a typical input cartoon image. (b) and (c) are utputs of randomly
 initialized CNN and F-Conv, respectively, where the demarcated areas
 are zoomed in 5 times for easy observation.

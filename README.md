@@ -21,11 +21,11 @@ Besides the output of F-Conv can be more stable than output of CNN when the inpu
 
 **CNN results:**
 
-<img src="https://github.com/XieQi2015/ImageFolder/blob/master/F-Conv/CNN_small2.gif" width="600">
+<img src="https://github.com/XieQi2015/ImageFolder/blob/master/F-Conv/CNN_tiny2.gif" width="600">
 
 **F-Conv results:**
 
-<img src="https://github.com/XieQi2015/ImageFolder/blob/master/F-Conv/FCNN_small2.gif" width="600">
+<img src="https://github.com/XieQi2015/ImageFolder/blob/master/F-Conv/FCNN_tiny2.gif" width="600">
 
 Usage:
     

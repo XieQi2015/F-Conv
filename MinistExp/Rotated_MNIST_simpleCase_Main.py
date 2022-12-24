@@ -19,7 +19,7 @@ parser.add_argument('--dir',type = str, default = 'SimpleNet' )
 # parser.add_argument('--testModel', type = str, default='./Model/Model_best_red.pt')
 parser.add_argument('--device', type = str, default='0')
 parser.add_argument('--mode',type = str, default = 'test' )
-parser.add_argument('--weight_decay', type = float, default = 1e-2)
+parser.add_argument('--weight_decay', type = float, default = 1e-3)
 parser.add_argument('--InP', type = int, default = 4)
 args = parser.parse_args()
 

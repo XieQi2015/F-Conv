@@ -1,6 +1,5 @@
 # F-Conv
-Code of "Fourier Series Expansion Based Filter Parametrization for Equivariant Convolutions"
-
+Code of "Fourier Series Expansion Based Filter Parametrization for Equivariant Convolutions"  
 [Paper link](https://ieeexplore.ieee.org/abstract/document/9851557)  
 [Arxiv link](https://arxiv.org/submit/4780066/view)  
 [Supplementary Material](https://github.com/XieQi2015/F-Conv/blob/main/Supplementary%20Material.pdf)

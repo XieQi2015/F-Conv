@@ -1,8 +1,6 @@
 # F-Conv
 Code of "Fourier Series Expansion Based Filter Parametrization for Equivariant Convolutions"
 
-Supplementary Material: https://ieeexplore.ieee.org/ielx7/34/10061515/9851557/supp1-3196652.pdf?arnumber=9851557
-
 ![Illustration of F-Conv](https://raw.githubusercontent.com/XieQi2015/ImageFolder/master/F-Conv/Fig4.jpg)
 
     MinistExp\    : Code for the experiments on minist dataset

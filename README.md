@@ -35,8 +35,16 @@ Besides the output of F-Conv can be more stable than output of CNN when the inpu
 
 Usage:
     
-    For your CNN network, replace all the convolution layers with the proposed F-Conv
-    Detail usage can be found in the subfolders
+    For your CNN network, replace all the convolution layers with the proposed F-Conv layers. 
+    Specifically:
+    for the first layer of CNN, use Fconv_PCA with ifIni=1, for example, 
+    
+    import F_Conv as fn
+    tranNum = 4 # 2*pi/tranNum degree rotation equviariant 
+
+    fn.Fconv_PCA(kernel_size, c_in, c_out, tranNum, padding=1, ifIni=1)
+    
+    More detail usage can be found in the subfolders
 
 Citation:
 

@@ -67,7 +67,7 @@ For the output layer of network, use Fconv_PCA_out. For example:
 
     #output layer of F-Conv
 
-    Conv_3 = fn.Fconv_PCA_out(kernel_size, c_in//tranNum, c_out, tranNum, padding=1, ifIni=0) # ifIni=0 is important
+    Conv_3 = fn.Fconv_PCA_out(kernel_size, c_in//tranNum, c_out, tranNum, padding=1)
 
 More detail usage can be found in the subfolders
 

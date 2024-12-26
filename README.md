@@ -35,6 +35,7 @@ Besides the output of F-Conv can be more stable than output of CNN when the inpu
 
 Usage:
     
+    For your CNN network, replace all the convolution layers with the proposed F-Conv
     Detail usage can be found in the subfolders
 
 Citation:

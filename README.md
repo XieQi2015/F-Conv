@@ -9,6 +9,7 @@ Code of "Fourier Series Expansion Based Filter Parametrization for Equivariant C
     MinistExp\    : Code for the experiments on minist dataset
     SRExp\        : Code for the experiments of image super resolution 
     F_Conv        : Code of the F-Conv proposed in our TPAMI paper
+    B_Conv        : Code of the B-Conv, new version of F-Conv
     Supplementary Material.pdf: Supplementary Material
     
 F-Convs are rotation equivariant convolutions with high representation accuracy, which can perform better on low-level computer vision tasks as comparsion with pervious rotation equivariant convolution methods.

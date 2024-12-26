@@ -47,7 +47,8 @@ Specifically, for the first layer of network, use Fconv_PCA with ifIni=1. For ex
 
     import F_Conv as fn
     tranNum = 4 #2*pi/tranNum degree rotation equviariant 
-    Conv_1 = fn.Fconv_PCA(kernel_size, c_in, c_out//tranNum, tranNum, padding=1, ifIni=1) # ifIni=1 is important
+    Conv_1 = fn.Fconv_PCA(kernel_size, c_in, c_out//tranNum, tranNum, padding=1, ifIni=1) 
+    # ifIni=1 is important
 
 For the intermediate layer of network, use Fconv_PCA with ifIni=0. For example:
 
@@ -57,7 +58,8 @@ For the intermediate layer of network, use Fconv_PCA with ifIni=0. For example:
 
     #intermediate layer of F-Conv
 
-    Conv_2 = fn.Fconv_PCA(kernel_size, c_in//tranNum, c_out//tranNum, tranNum, padding=1, ifIni=0) # ifIni=0 is important
+    Conv_2 = fn.Fconv_PCA(kernel_size, c_in//tranNum, c_out//tranNum, tranNum, padding=1, ifIni=0) 
+    # ifIni=0 is important
 
 For the output layer of network, use Fconv_PCA_out. For example:
 

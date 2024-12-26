@@ -35,17 +35,30 @@ Besides the output of F-Conv can be more stable than output of CNN when the inpu
 
 **Usage:**    
 For your CNN network, replace all the convolution layers with the proposed F-Conv layers. 
-Specifically, for the first layer of CNN, use Fconv_PCA with ifIni=1, for example:
-  
-    #CNN
+
+Specifically, for the first layer of CNN, use Fconv_PCA with ifIni=1. For example:
+
+first layer of CNN
+
     import torch.nn as nn
-    Conv_1 = nn.Conv_2d(c_in, c, kernel_size, padding=1)
+    Conv_1 = nn.Conv_2d(c_in, c_out, kernel_size, padding=1)
+
+first layer of F-Conv
 
     #F-Conv
     import F_Conv as fn
-    tranNum = 4 # 2*pi/tranNum degree rotation equviariant 
-    Conv_1 = fn.Fconv_PCA(kernel_size, c_in, c//tranNum, tranNum, padding=1, ifIni=1)
+    tranNum = 4 #2*pi/tranNum degree rotation equviariant 
+    Conv_1 = fn.Fconv_PCA(kernel_size, c_in, c_out//tranNum, tranNum, padding=1, ifIni=1) # ifIni=1 is important
     
+intermediate layer of CNN
+
+    Conv_2 = nn.Conv_2d(c_in, c_out, kernel_size, padding=1)
+
+intermediate layer of F-Conv
+
+    #F-Conv
+    Conv_2 = fn.Fconv_PCA(kernel_size, c_in//tranNum, c_out//tranNum, tranNum, padding=1, ifIni=0) # ifIni=0 is important
+
     
     More detail usage can be found in the subfolders
 

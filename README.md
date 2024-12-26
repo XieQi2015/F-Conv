@@ -38,14 +38,13 @@ For your CNN network, replace all the convolution layers with the proposed F-Con
 
 Specifically, for the first layer of network, use Fconv_PCA with ifIni=1. For example:
 
-first layer of CNN
+    #first layer of CNN
 
     import torch.nn as nn
     Conv_1 = nn.Conv_2d(c_in, c_out, kernel_size, padding=1)
 
-first layer of F-Conv
+    #first layer of F-Conv
 
-    #F-Conv
     import F_Conv as fn
     tranNum = 4 #2*pi/tranNum degree rotation equviariant 
     Conv_1 = fn.Fconv_PCA(kernel_size, c_in, c_out//tranNum, tranNum, padding=1, ifIni=1) # ifIni=1 is important

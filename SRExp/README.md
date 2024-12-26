@@ -19,7 +19,7 @@ We used Urban100, B100, Set14 and Set5 dataset for testing, which can be downloa
 To train and test the proposed method, Cd to 'src', and following scripts are example for training and testing, respectively:
     
     python main.py --model RDN_fcnn --scale 2 --save RDN_fcnn_x2  --res_scale 0.1 --ini_scale  0.1 --batch_size 16  --patch_size 64 --G0 8 --kernel_size 5 --epochs 150 --decay 3-100-130 --lr 4e-4
-    python main.py --text_only --model RDN_fcnn --scale 2 --save RDN_fcnn_x2  --res_scale 0.1 --ini_scale  0.1 --batch_size 16  --patch_size 64 --G0 8 --kernel_size 5 --epochs 150 --decay 3-100-130 --lr 4e-4
+    python main.py --test_only --model RDN_fcnn --scale 2 --save RDN_fcnn_x2  --res_scale 0.1 --ini_scale  0.1 --batch_size 16  --patch_size 64 --G0 8 --kernel_size 5 --epochs 150 --decay 3-100-130 --lr 4e-4
 
 More examples can be found in Demo.txt.
  

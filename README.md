@@ -41,35 +41,35 @@ Specifically, for the first layer of network, use Fconv_PCA with ifIni=1. For ex
     #first layer of CNN
 
     import torch.nn as nn
-    Conv_1 = nn.Conv_2d(c_in, c_out, kernel_size, padding=1)
+    Conv_1 = nn.Conv_2d(c_in, c_out, kernel_size)
 
     #first layer of F-Conv
 
     import F_Conv as fn
     tranNum = 4 #2*pi/tranNum degree rotation equviariant 
-    Conv_1 = fn.Fconv_PCA(kernel_size, c_in, c_out//tranNum, tranNum, padding=1, ifIni=1) 
+    Conv_1 = fn.Fconv_PCA(kernel_size, c_in, c_out//tranNum, tranNum, ifIni=1) 
     # ifIni=1 is important
 
 For the intermediate layer of network, use Fconv_PCA with ifIni=0. For example:
 
     #intermediate layer of CNN
 
-    Conv_2 = nn.Conv_2d(c_in, c_out, kernel_size, padding=1)
+    Conv_2 = nn.Conv_2d(c_in, c_out, kernel_size)
 
     #intermediate layer of F-Conv
 
-    Conv_2 = fn.Fconv_PCA(kernel_size, c_in//tranNum, c_out//tranNum, tranNum, padding=1, ifIni=0) 
+    Conv_2 = fn.Fconv_PCA(kernel_size, c_in//tranNum, c_out//tranNum, tranNum, ifIni=0) 
     # ifIni=0 is important
 
 For the output layer of network, use Fconv_PCA_out. For example:
 
     #output layer of CNN
 
-    Conv_3 = nn.Conv_2d(c_in, c_out, kernel_size, padding=1)
+    Conv_3 = nn.Conv_2d(c_in, c_out, kernel_size)
 
     #output layer of F-Conv
 
-    Conv_3 = fn.Fconv_PCA_out(kernel_size, c_in//tranNum, c_out, tranNum, padding=1)
+    Conv_3 = fn.Fconv_PCA_out(kernel_size, c_in//tranNum, c_out, tranNum)
 
 More detail usage can be found in the subfolders
 

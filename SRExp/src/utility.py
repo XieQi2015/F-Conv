@@ -67,8 +67,9 @@ class checkpoint():
                 args.load = ''
 
         if args.reset:
-#            os.system('rm -rf ' + self.dir)
-            os.system('DEL /s ' + self.dir)
+            for root, _dirs, files in os.walk(self.dir):
+                for name in files:
+                    os.remove(os.path.join(root, name))
             args.load = ''
 
         os.makedirs(self.dir, exist_ok=True)
